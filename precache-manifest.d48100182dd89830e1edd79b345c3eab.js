@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "dfeb79acb136c95aa6f7",
+    "revision": "f88d3ae36ebae05d837d",
     "url": "/michael-huss/static/css/main.2045ac4e.chunk.css"
   },
   {
-    "revision": "dfeb79acb136c95aa6f7",
-    "url": "/michael-huss/static/js/main.dfeb79ac.chunk.js"
+    "revision": "f88d3ae36ebae05d837d",
+    "url": "/michael-huss/static/js/main.f88d3ae3.chunk.js"
   },
   {
     "revision": "0182666b33602a364e1e",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/michael-huss/static/js/runtime~main.379e8b57.js"
   },
   {
-    "revision": "0652e1969d80141ac3e0635fb2061519",
+    "revision": "c07f99abdc4ba239e7e3eccc3b001617",
     "url": "/michael-huss/index.html"
   }
 ];
