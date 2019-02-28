@@ -23,7 +23,7 @@ class Reflections extends Component {
               <Card>
                 <CardImg
                   className="pt-2 pb-2"
-                  src="/dna-solid.svg"
+                  src={process.env.PUBLIC_URL + "dna-solid.svg"}
                   style={{ maxHeight: "64px", backgroundColor: "#3e4851" }}
                 />
                 <CardBody>
