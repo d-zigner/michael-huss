@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/michael-huss/static/js/runtime~main.379e8b57.js"
   },
   {
-    "revision": "e82913ab0b3e74252c90",
-    "url": "/michael-huss/static/js/main.e82913ab.chunk.js"
+    "revision": "4ea72670b93dff97c563",
+    "url": "/michael-huss/static/js/main.4ea72670.chunk.js"
   },
   {
     "revision": "6180cffadc531d3bb462",
     "url": "/michael-huss/static/js/1.6180cffa.chunk.js"
   },
   {
-    "revision": "e82913ab0b3e74252c90",
+    "revision": "4ea72670b93dff97c563",
     "url": "/michael-huss/static/css/main.ab1cd353.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/michael-huss/static/css/1.1d2d4669.chunk.css"
   },
   {
-    "revision": "f9af438ab09246c1e4e10e8b18d453e6",
+    "revision": "7aeeceaa1a82dbf1a041718b54785562",
     "url": "/michael-huss/index.html"
   }
 ];
