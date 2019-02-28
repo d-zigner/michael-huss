@@ -28,39 +28,37 @@ class Navigation extends Component {
 
   render() {
     return (
-      <Router basename={process.env.PUBLIC_URL}>
-        <div>
-          <Navbar color="dark" className="navbar-dark navbar-expand-md">
-            <NavbarBrand className="mr-4">
-              <img
-                className="brandLogo mr-3"
-                alt="Portrait"
-                src={process.env.PUBLIC_URL + "/brandLogo.webp"}
-              />
-              <span className="text-light">Michael Huss</span>
-            </NavbarBrand>
-            <NavbarToggler onClick={this.toggle} />
+      <div>
+        <Navbar color="dark" className="navbar-dark navbar-expand-md">
+          <NavbarBrand className="mr-4">
+            <img
+              className="brandLogo mr-3"
+              alt="Portrait"
+              src={process.env.PUBLIC_URL + "/brandLogo.webp"}
+            />
+            <span className="text-light">Michael Huss</span>
+          </NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
 
-            <Collapse isOpen={this.state.isOpen} navbar>
-              <Link to="/" className="nav-link text-light">
-                Home
-              </Link>
-              <ProfessionalExperience />
-              <NavLink className="nav-link text-light" href="#">
-                Resume
-              </NavLink>
-              <NavLink className="nav-link text-light" href="#">
-                Extracurriculars
-              </NavLink>
-              <NavLink className="nav-link text-light" href="#">
-                Contact
-              </NavLink>
-            </Collapse>
-          </Navbar>
-          <Route exact path="/" component={Main} />
-          <Route path="/reflections/" component={Reflections} />
-        </div>
-      </Router>
+          <Collapse isOpen={this.state.isOpen} navbar>
+            <Link to="/" className="nav-link text-light">
+              Home
+            </Link>
+            <ProfessionalExperience />
+            <NavLink className="text-light" href="#">
+              Resume
+            </NavLink>
+            <NavLink className="text-light" href="#">
+              Extracurriculars
+            </NavLink>
+            <NavLink className="text-light" href="#">
+              Contact
+            </NavLink>
+          </Collapse>
+        </Navbar>
+        <Route exact path="/" component={Main} />
+        <Route path="/senior-writing-seminar/" component={Reflections} />
+      </div>
     );
   }
 }

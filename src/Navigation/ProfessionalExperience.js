@@ -31,7 +31,9 @@ class ProfessionalExperience extends Component {
         </DropdownToggle>
         <DropdownMenu>
           <DropdownItem>
-            <Link to="/reflections/">Senior Writing Seminar</Link>
+            <Link to="/senior-writing-seminar/" className="text-dark">
+              Senior Writing Seminar
+            </Link>
           </DropdownItem>
           <DropdownItem>Biology Course Work</DropdownItem>
           <DropdownItem>Osteology Internship</DropdownItem>
