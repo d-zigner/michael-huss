@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Unna");
+
+.navbar-brand {
+  font-family: "Unna", serif;
+}
+
+@media only screen and (min-width: 760px) {
+  .nav-link:hover {
+    border-bottom: 2px solid white !important;
+  }
+}
+
+img.brandLogo {
+  border-radius: 100%;
+  width: 48px;
+  height: 48px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
