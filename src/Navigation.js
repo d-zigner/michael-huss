@@ -52,9 +52,6 @@ class Navigation extends Component {
               <NavLink className="nav-link text-light" href="#">
                 Extracurriculars
               </NavLink>
-              <Link to="/reflections/" className="nav-link text-light">
-                Reflections
-              </Link>
               <NavLink className="nav-link text-light" href="#">
                 Contact
               </NavLink>

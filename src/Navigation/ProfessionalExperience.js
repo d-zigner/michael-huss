@@ -5,6 +5,7 @@ import {
   DropdownMenu,
   DropdownItem
 } from "reactstrap";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class ProfessionalExperience extends Component {
   constructor(props) {
@@ -29,7 +30,9 @@ class ProfessionalExperience extends Component {
           Professional Experience
         </DropdownToggle>
         <DropdownMenu>
-          <DropdownItem>Senior Writing Seminar</DropdownItem>
+          <DropdownItem>
+            <Link to="/reflections/">Senior Writing Seminar</Link>
+          </DropdownItem>
           <DropdownItem>Biology Course Work</DropdownItem>
           <DropdownItem>Osteology Internship</DropdownItem>
         </DropdownMenu>
