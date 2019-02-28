@@ -7,9 +7,7 @@ import {
   CardTitle,
   Col,
   Row,
-  Container,
-  Button,
-  UncontrolledCollapse
+  Container
 } from "reactstrap";
 import Prompt from "./Prompt";
 

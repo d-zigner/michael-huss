@@ -57,11 +57,8 @@ class Navigation extends Component {
               </NavLink>
             </Collapse>
           </Navbar>
-          <Route exact path={process.env.PUBLIC_URL + "/"} component={Main} />
-          <Route
-            path={process.env.PUBLIC_URL + "/reflections/"}
-            component={Reflections}
-          />
+          <Route exact path="/" component={Main} />
+          <Route path="/reflections/" component={Reflections} />
         </div>
       </Router>
     );
