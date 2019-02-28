@@ -6,7 +6,7 @@ import {
   NavLink,
   Collapse
 } from "reactstrap";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Route, Link } from "react-router-dom";
 import Reflections from "./Reflections";
 import Main from "./Main";
 import ProfessionalExperience from "./Navigation/ProfessionalExperience";

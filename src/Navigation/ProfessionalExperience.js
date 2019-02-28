@@ -5,7 +5,7 @@ import {
   DropdownMenu,
   DropdownItem
 } from "reactstrap";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class ProfessionalExperience extends Component {
   constructor(props) {

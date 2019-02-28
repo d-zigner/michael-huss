@@ -3,10 +3,12 @@ import React, { Component } from "react";
 class Footer extends Component {
   render() {
     return (
-      <footer className="pt-4 border-top">
-        <div className="row">
-          <div className="col" />
-        </div>
+      <footer style={{ fontSize: "smaller" }} className="pt-4 border-top">
+        {/*       <Col>
+          <Link to="/licenses/">License</Link>
+        </Col>
+
+        <Route path="/licenses/" component={Licenses} />*/}
       </footer>
     );
   }
