@@ -28,7 +28,7 @@ class Navigation extends Component {
 
   render() {
     return (
-      <Router basename="/michael-huss">
+      <Router basename={process.env.PUBLIC_URL}>
         <div>
           <Navbar color="dark" className="navbar-dark navbar-expand-md">
             <NavbarBrand className="mr-4">
