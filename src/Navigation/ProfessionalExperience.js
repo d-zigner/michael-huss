@@ -40,6 +40,11 @@ class ProfessionalExperience extends Component {
               Senior Presentation
             </Link>
           </DropdownItem>
+          <DropdownItem>
+            <Link className="text-dark" to="/senior-paper/">
+              Senior Paper
+            </Link>
+          </DropdownItem>
           <DropdownItem>Biology Course Work</DropdownItem>
           <DropdownItem>Osteology Internship</DropdownItem>
         </DropdownMenu>
