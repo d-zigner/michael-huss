@@ -17,7 +17,7 @@ class Footer extends Component {
             width: "100%",
             height: "60px",
             lineHeight: "60px",
-            marginTop: "60px",
+            marginTop: "-50px",
             backgroundColor: "#f5f5f5"
           }}
         >

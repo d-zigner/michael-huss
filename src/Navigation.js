@@ -12,6 +12,7 @@ import PowerPoint from "./PowerPoint";
 import Paper from "./Paper";
 import Main from "./Main";
 import ProfessionalExperience from "./Navigation/ProfessionalExperience";
+import WritingSeminar from "./Navigation/WritingSeminar";
 import "./Navigation.css";
 
 class Navigation extends Component {
@@ -47,6 +48,7 @@ class Navigation extends Component {
               Home
             </Link>
             <ProfessionalExperience />
+            <WritingSeminar />
             <NavLink className="text-light" href="#">
               Resume
             </NavLink>
