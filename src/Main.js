@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Jumbotron } from "reactstrap";
-import Footer from "./Footer";
 import "./Main.css";
 
 class Main extends Component {
@@ -33,7 +32,6 @@ class Main extends Component {
           to the study of Human Anatomy and related biological sciences.
           <p />I plan to continue my studies by enrolling into medical school
         </div>
-        <Footer />
       </div>
     );
   }

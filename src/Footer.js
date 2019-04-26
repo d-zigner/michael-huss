@@ -1,15 +1,38 @@
 import React, { Component } from "react";
+import { Route, Link } from "react-router-dom";
+import { Container, Row, Col } from "reactstrap";
+import Licenses from "./Licenses";
 
 class Footer extends Component {
   render() {
     return (
-      <footer style={{ fontSize: "smaller" }} className="pt-4 border-top">
-        {/*       <Col>
-          <Link to="/licenses/">License</Link>
-        </Col>
+      <div className="mt-auto py-3">
+        <Route path="/licenses/" component={Licenses} />
 
-        <Route path="/licenses/" component={Licenses} />*/}
-      </footer>
+        <footer
+          className="footer"
+          style={{
+            position: "fixed",
+            bottom: 0,
+            width: "100%",
+            height: "60px",
+            lineHeight: "60px",
+            marginTop: "60px",
+            backgroundColor: "#f5f5f5"
+          }}
+        >
+          <Container>
+            <Row className="justify-content-center">
+              <Col md="auto">
+                <Link to="/licenses/">License</Link>
+              </Col>
+              <Col md="auto" className="text-muted">
+                &copy; Michael Huss, 2019
+              </Col>
+            </Row>
+          </Container>
+        </footer>
+      </div>
     );
   }
 }

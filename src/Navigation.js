@@ -8,6 +8,7 @@ import {
 } from "reactstrap";
 import { Route, Link } from "react-router-dom";
 import Reflections from "./Reflections";
+import PowerPoint from "./PowerPoint";
 import Main from "./Main";
 import ProfessionalExperience from "./Navigation/ProfessionalExperience";
 import "./Navigation.css";
@@ -58,6 +59,7 @@ class Navigation extends Component {
         </Navbar>
         <Route exact path="/" component={Main} />
         <Route path="/senior-writing-seminar/" component={Reflections} />
+        <Route path="/senior-presentation/" component={PowerPoint} />
       </div>
     );
   }

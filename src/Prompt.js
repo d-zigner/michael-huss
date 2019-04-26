@@ -49,7 +49,7 @@ class Prompt extends Component {
             placement="right"
             target={`prompt-${this.props.number}-collapse`}
           >
-            {this.state.collapse ? "Close" : "Open"} the prompt text
+            {this.state.collapse ? "Close" : "Open"} prompt text
           </UncontrolledTooltip>
         </div>
         <Collapse isOpen={this.state.collapse}>
