@@ -9,6 +9,7 @@ import {
 import { Route, Link } from "react-router-dom";
 import Reflections from "./Reflections";
 import PowerPoint from "./PowerPoint";
+import Resume from "./Resume";
 import Paper from "./Paper";
 import Main from "./Main";
 import ProfessionalExperience from "./Navigation/ProfessionalExperience";
@@ -50,7 +51,13 @@ class Navigation extends Component {
             <ProfessionalExperience />
             <WritingSeminar />
             <NavLink className="text-light" href="#">
-              Resume
+              <Link
+                to="/resume"
+                className="text-light"
+                style={{ textDecoration: "none" }}
+              >
+                Resume
+              </Link>
             </NavLink>
             <NavLink className="text-light" href="#">
               Extracurriculars
@@ -64,6 +71,7 @@ class Navigation extends Component {
         <Route path="/senior-writing-seminar/" component={Reflections} />
         <Route path="/senior-presentation/" component={PowerPoint} />
         <Route path="/senior-paper/" component={Paper} />
+        <Route path="/resume" component={Resume} />
       </div>
     );
   }

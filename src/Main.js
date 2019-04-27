@@ -11,7 +11,7 @@ class Main extends Component {
             <div className=" ml-4 flex-grow-1">
               <h1 className="display-2">Michael Huss</h1>
               <h1 className="display-4" style={{ fontSize: "2rem" }}>
-                Biology Student
+                Bachelor of Biology
               </h1>
             </div>
             <img
