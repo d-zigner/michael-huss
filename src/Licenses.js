@@ -35,8 +35,8 @@ class Licenses extends Component {
       <div className="mb-3">
         <LicenseCard title="Font Awesome" href="https://fontawesome.com/">
           Font glyphs use for various interactions and DNA SVG used for
-          Reflection headers. License can be viewed{" "}
-          <a href="https://fontawesome.com">here</a>
+          Reflection headers, and card images in Biology Course work. License
+          can be viewed <a href="https://fontawesome.com">here</a>
         </LicenseCard>
         <LicenseCard
           title="React"
