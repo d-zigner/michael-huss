@@ -30,7 +30,11 @@ class ProfessionalExperience extends Component {
           Professional Experience
         </DropdownToggle>
         <DropdownMenu>
-          <DropdownItem>Biology Course Work</DropdownItem>
+          <DropdownItem>
+            <Link className="text-dark" to="/biology-course-work/">
+              Biology Course Work
+            </Link>
+          </DropdownItem>
           <DropdownItem>Osteology Internship</DropdownItem>
         </DropdownMenu>
       </Dropdown>

@@ -15,6 +15,7 @@ import Main from "./Main";
 import ProfessionalExperience from "./Navigation/ProfessionalExperience";
 import WritingSeminar from "./Navigation/WritingSeminar";
 import "./Navigation.css";
+import FundBioMol from "./FundBioMol";
 
 class Navigation extends Component {
   constructor(props) {
@@ -50,15 +51,13 @@ class Navigation extends Component {
             </Link>
             <ProfessionalExperience />
             <WritingSeminar />
-            <NavLink className="text-light" href="#">
-              <Link
-                to="/resume"
-                className="text-light"
-                style={{ textDecoration: "none" }}
-              >
-                Resume
-              </Link>
-            </NavLink>
+            <Link
+              to="/resume"
+              className="text-light nav-link"
+              style={{ textDecoration: "none" }}
+            >
+              Resume
+            </Link>
             <NavLink className="text-light" href="#">
               Extracurriculars
             </NavLink>
@@ -68,6 +67,7 @@ class Navigation extends Component {
           </Collapse>
         </Navbar>
         <Route exact path="/" component={Main} />
+        <Route path="/biology-course-work/" component={FundBioMol} />
         <Route path="/senior-writing-seminar/" component={Reflections} />
         <Route path="/senior-presentation/" component={PowerPoint} />
         <Route path="/senior-paper/" component={Paper} />
